@@ -1,6 +1,6 @@
 @RestWithASPNET_HostAddress = http://localhost:5282
 
-GET {{RestWithASPNET_HostAddress}}/weatherforecast/
+GET {{RestWithASPNET_HostAddress}}/sum
 Accept: application/json
 
 ###
