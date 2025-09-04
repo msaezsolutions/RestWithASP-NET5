@@ -1,0 +1,6 @@
+services:
+  restwithaspneterudio:
+    image: ${DOCKER_REGISTRY-}restwithaspneterudio
+    build:
+      context: .
+      dockerfile: RestWithASPNETErudio/Dockerfile
